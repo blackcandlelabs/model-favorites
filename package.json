@@ -1,0 +1,16 @@
+{
+  "name": "pi-model-favorites",
+  "version": "1.0.0",
+  "description": "Favorites screen for pi: /addfav, /subfav, /favorites",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "repository": "github:blackcandlelabs/model-favorites",
+  "pi": {
+    "extensions": ["extensions/model-favorites.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
